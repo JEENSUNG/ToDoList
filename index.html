@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "stylesheet" href = "css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum App</title>
+</head>
+<body>
+    <form class = "hidden" id = "login-form">
+        <input required maxlength = "15" type = "text" placeholder = "what is your name?"/>
+        <input type = "submit" value = "Log in"/>
+    </form>
+    <h2 id = "clock">00:00:00</h2>
+    <h1 id = "greeting" class = "hidden"></h1>
+    <form id = "todo-form">
+        <input type = "text" placeholder = "Write a To Do and Press Enter" required />
+    </form>
+    <ul id = "todo-list">
+    </ul>
+    <div id = "grid"></div>
+    <div id = "quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id = "weather">
+        <span></span>
+        <span></span>
+    </div>
+    <script src = "js/greetings.js"></script>
+    <script src = "js/clock.js"></script>
+    <script src = "js/quotes.js"></script>
+    <script src = "js/background.js"></script>
+    <script src = "js/todo.js"></script>
+    <script src = "js/weather.js"></script>
+    <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://study1-3.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/60deba2f65b7290ac6390653/1f9j0eim4';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
